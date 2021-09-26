@@ -8,7 +8,17 @@
   position: fixed;
   top: 0;
   z-index: 3;
-  transition: all 1s ease;
+
+  &.active {
+    .logo {
+      display: none;
+    }
+  }
+  &.false {
+    .logoActive {
+      display: none;
+    }
+  }
 
   .wrapper {
     padding: 10px 30px;
@@ -19,13 +29,12 @@
     .left {
       display: flex;
       align-items: center;
-      .logo {
-        font-size: 40px;
-        font-weight: 700;
-        text-decoration: none;
-        color: inherit;
-        margin-right: 30px;
-      }
+      margin-top: -10px;
+      img {
+          margin-top: -5px;
+          width: 100px;
+          height: 75px;
+        }
 
       .itemContainer {
         display: flex;
@@ -45,6 +54,7 @@
     }
 
     .right {
+      margin-top: -10px;
       .hamburger {
         width: 32px;
         height: 25px;
@@ -58,7 +68,7 @@
           height: 3px;
           background-color: $mainColor;
           transform-origin: left;
-          transition: all 2s ease
+          transition: all 1s ease
         }
       }
     }
