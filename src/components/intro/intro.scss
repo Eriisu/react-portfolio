@@ -1,3 +1,116 @@
 .intro {
   background-color: #06a571;
+  display: flex;
+
+   .left {
+     flex: 0.5;
+     overflow: hidden;
+
+     .imgContainer {
+       width: 750px;
+       height: 750px;
+       background-color: #78be1e;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       float: right;
+       top: 10px;
+       position: relative;
+       overflow: hidden;
+
+       .innerBorder {
+         width: 650px;
+         height: 650px;
+         background-color: transparent;
+         border: 5px solid #06a571;
+         border-radius: 50%;
+       }
+
+       img {
+         height: 100%;
+         position: absolute;
+         left: 50px;
+         top: 50px;
+       }
+     }
+   }
+
+   .right {
+     flex: 0.5;
+     position: relative;
+
+     .wrapper {
+       width: 100%;
+       height: 100%;
+       padding-left: 50px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+
+       h1 {
+        font-size: 60px;
+        margin: 10px 0;
+
+        .invisible {
+          visibility: hidden;
+        }
+
+        span {
+          font-size: inherit;
+          color: #78be1e;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+          color: #283131;
+          text-shadow: none;
+          font-weight: 300;
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+       }
+
+       h2 {
+        color: #283131;
+        font-size: 35px;
+       }
+
+       h3 {
+        color: #283131;
+        font-size: 30px;
+       }
+     }
+     a{
+       position: absolute;
+       bottom: 10px;
+       left: 35%;
+       text-decoration: none;
+       color: #283131;
+       .icon {
+         font-size: 100px;
+         animation: arrowFloat 5s infinite;
+       }
+
+       @keyframes arrowFloat {
+        0% {
+        transform: translatey(0px);
+        }
+        50% {
+        transform: translatey(-20px);
+        }
+        100% {
+        transform: translatey(0px);
+        }
+       }
+     }
+   }
 }
