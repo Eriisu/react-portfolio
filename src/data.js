@@ -1,0 +1,56 @@
+export const featuredPortfolio = [
+  {
+    id: 1,
+    title: "Whatever",
+    img: "https://lh3.googleusercontent.com/PGCkgmLDIJ0ItjTxHI76LIc35tbUM1Yt_6GAThK0WJwvIfuFrgyl7cYdV8_6BxY0eT1afgFGyFAdHFBwoPO4zgbeQbvW944vw_MpoydlIpTp2p7eRtWCF0VyjI46VMNr7uHveq0fR2gg4GqQb8viBecXmSqeCj-iiZlkqOEKOcQO-PMKtVi1N0M8svUMVR0i2y9FP5b69oXQFWzUoSbYMpkVZOsBFUDy7uNnnPwl-Us-VxxzvZFd1hVeXOqijZdJI4EOUn-SJLgeCkCp4whQc_Ov_xyr63NW2N0iXEjfFq8cOKzyV91j6MdJ-OZYfBqOCSJg9Y5xvamw1yX0lNgLRlGIgiC8AIe4EvCTyAiaZ4rtvrfYpVg7IsbKgMqkglYW77pjVRnInKKw1bihmdMYq1YcVAPSEhCLZU3mp866d2xF2MFJC4zn3MzSoT60Oj27jRIT4URRvxKQGkTCtB_o0Q7_-YulfJP6lwVl1vCExnnG4u9SK2ve6JjvbEgJjvZ_igGpfYg5Pgr06lkEMbscZvhreob5id76t-fFk-yywJjwljYNs0bWNB-Bd9BGKLLsQ5mCQ_cF0hfNHXuqeo6UyrYMwRpkWGVUzc0WS9gIDexMLg2M2MNB1L4fqTq-epRr4-Zgu1w-BgevoNzDjo5prXgp70hl7eI1UoT8IC42lsLNM0wr0MK-Lo8poOwoQJOHzEkzdT3_zZQQ7LJ_gEKZz6g=w695-h337-no?authuser=0",
+  },
+  {
+    id: 2,
+    title: "ScareBnB",
+    img: "https://lh3.googleusercontent.com/9Z29cijSlEORXzAFjNzH1MLRviKcUSQml7OypWPbxmW3WpylTX4OaF-Oz4JCMnRAWySXhfXYihE-ia1-R28I0-6REZ7IobcovGC6VfWAB7bCGkwtLy929oJo5lZf9YRdXTHWRBeDfkOlJgLkWC689TQDvihfSjFDRzw-JnGhfwerD0Os9iKcy6YvAbtlMjvepucC5qNCRkgFPxoCAobplat2D036aS6ZbbPH7_t6Po9QKVv-4WX1FlVQFDqRCdKKULSfm-TZK46Xm1rgxBaRgSQKsh1POW5xmkZH3sv8GsFGr-48KGVWLhGlH-xs81CHAdzF_yxpV-bNRAa-v1IHDfMUzYL3U4PIqmm_oqtYpDZeKF7cWweYBOp5-X12BvzrBeX_Hjsyt0C-9J3exFxz89-VjHo3-xLp_sMkrMnKYDB3uvcZ4OzgXwxK5JrbCc2oEPIZ_uujQ5HRdLLfk1ZjrP6JSeX4da3YzXVxd9vek16QTjPVL-cQGBnSfybmTn4bd3fpTgmZC0RnHQ2z3ONUjXucfWehLsEc16tcX8n03uqZbg6Ykpf06QYhbIJYTpTjdCMvr5wbXAHYWt6RkecXUP2Ws26S34oR2Z9UOPVYSuYU2ozIyai-jW_R6IeaSDLZZB2TTIl8iTSpBkdhtn8yscfIHyr47Q-A3VqJ7bfU2lJAh55hUshhPnpCDGmG5hGLInqNdNVMWhFV4GvzM7c21LM=w2876-h1382-no?authuser=0",
+  },
+  {
+    id: 3,
+    title: "SpacePro",
+    img: "https://lh3.googleusercontent.com/n35KM8imzUEXnaU9mavr9VWIJ4xMhHuJ2hCthOdRF5YLch7E4MHdwLQCGcH0iLrIgY-JB93zl-ThUtz_qIBcMbAWxafBOSNPjJP-UVhC89Q8JQ2DDZE87joNN5MF8m3VuWRKDJ0nYv1aW0jdTJj3tKfYOaX1YKMNH5-oBhHpBAlTyjzp12cj15QpegAV2WI9K0vvY91gBx6TRPM6-jeZDyoeV4aoscKDOTYvLlTdZ0nEZJMCeh8aaKJfM5aYm7PDhCgca1Q2WLvung5fX0gmc04REOuadP5NelISz3VllHt3XnB6r7S-u8LvhJvCFn93kNcFg8otdP5LoxjaZ1sw99v143WNMExzwaaEufXdWUHcPd5hLUPI96jRacxLv3ZCEiPZtK9qUN0FnbH3RjD8fZFrgZjN6MhBDFBYRoDE92G63r8O4E27raAbAEhoaa7h-5BVpc-ho5c-9mr4Qb7Uvo5Xx7Ua347vtfcRynheDGO64byFSGG4Fh5cCWkXucD2RdFXWOuW5vmw4V17wMPMc1tzb4q2oYTRtUEcKgl3qTmOTtYZNXB_TSJT8lCPsVQyE8M4cgbtyRiDX6SSCRfpTBZDjpGxajJcVjixwYQo3BlGxPFeiYkwBCZa3SSU-l_7hScXYD-bHMGqSFIz8bWLZFI-cZXwiU0G5-zpGmQXEVXh2XjO2_7TFj7WybmE7WPMUn1NSSaOP6w1gIyZJeMYgKY=w2878-h1402-no?authuser=0",
+  },
+];
+
+export const rubyPortfolio = [
+  {
+    id: 1,
+    title: "Whatever",
+    img: "https://lh3.googleusercontent.com/PGCkgmLDIJ0ItjTxHI76LIc35tbUM1Yt_6GAThK0WJwvIfuFrgyl7cYdV8_6BxY0eT1afgFGyFAdHFBwoPO4zgbeQbvW944vw_MpoydlIpTp2p7eRtWCF0VyjI46VMNr7uHveq0fR2gg4GqQb8viBecXmSqeCj-iiZlkqOEKOcQO-PMKtVi1N0M8svUMVR0i2y9FP5b69oXQFWzUoSbYMpkVZOsBFUDy7uNnnPwl-Us-VxxzvZFd1hVeXOqijZdJI4EOUn-SJLgeCkCp4whQc_Ov_xyr63NW2N0iXEjfFq8cOKzyV91j6MdJ-OZYfBqOCSJg9Y5xvamw1yX0lNgLRlGIgiC8AIe4EvCTyAiaZ4rtvrfYpVg7IsbKgMqkglYW77pjVRnInKKw1bihmdMYq1YcVAPSEhCLZU3mp866d2xF2MFJC4zn3MzSoT60Oj27jRIT4URRvxKQGkTCtB_o0Q7_-YulfJP6lwVl1vCExnnG4u9SK2ve6JjvbEgJjvZ_igGpfYg5Pgr06lkEMbscZvhreob5id76t-fFk-yywJjwljYNs0bWNB-Bd9BGKLLsQ5mCQ_cF0hfNHXuqeo6UyrYMwRpkWGVUzc0WS9gIDexMLg2M2MNB1L4fqTq-epRr4-Zgu1w-BgevoNzDjo5prXgp70hl7eI1UoT8IC42lsLNM0wr0MK-Lo8poOwoQJOHzEkzdT3_zZQQ7LJ_gEKZz6g=w695-h337-no?authuser=0",
+  },
+  {
+    id: 2,
+    title: "ScareBnB",
+    img: "https://lh3.googleusercontent.com/9Z29cijSlEORXzAFjNzH1MLRviKcUSQml7OypWPbxmW3WpylTX4OaF-Oz4JCMnRAWySXhfXYihE-ia1-R28I0-6REZ7IobcovGC6VfWAB7bCGkwtLy929oJo5lZf9YRdXTHWRBeDfkOlJgLkWC689TQDvihfSjFDRzw-JnGhfwerD0Os9iKcy6YvAbtlMjvepucC5qNCRkgFPxoCAobplat2D036aS6ZbbPH7_t6Po9QKVv-4WX1FlVQFDqRCdKKULSfm-TZK46Xm1rgxBaRgSQKsh1POW5xmkZH3sv8GsFGr-48KGVWLhGlH-xs81CHAdzF_yxpV-bNRAa-v1IHDfMUzYL3U4PIqmm_oqtYpDZeKF7cWweYBOp5-X12BvzrBeX_Hjsyt0C-9J3exFxz89-VjHo3-xLp_sMkrMnKYDB3uvcZ4OzgXwxK5JrbCc2oEPIZ_uujQ5HRdLLfk1ZjrP6JSeX4da3YzXVxd9vek16QTjPVL-cQGBnSfybmTn4bd3fpTgmZC0RnHQ2z3ONUjXucfWehLsEc16tcX8n03uqZbg6Ykpf06QYhbIJYTpTjdCMvr5wbXAHYWt6RkecXUP2Ws26S34oR2Z9UOPVYSuYU2ozIyai-jW_R6IeaSDLZZB2TTIl8iTSpBkdhtn8yscfIHyr47Q-A3VqJ7bfU2lJAh55hUshhPnpCDGmG5hGLInqNdNVMWhFV4GvzM7c21LM=w2876-h1382-no?authuser=0",
+  },
+];
+
+export const reactPortfolio = [
+  {
+    id: 5,
+    title: "React Portfolio",
+    img: "",
+  },
+];
+
+export const htmlPortfolio = [
+  {
+    id: 3,
+    title: "SpacePro",
+    img: "https://lh3.googleusercontent.com/n35KM8imzUEXnaU9mavr9VWIJ4xMhHuJ2hCthOdRF5YLch7E4MHdwLQCGcH0iLrIgY-JB93zl-ThUtz_qIBcMbAWxafBOSNPjJP-UVhC89Q8JQ2DDZE87joNN5MF8m3VuWRKDJ0nYv1aW0jdTJj3tKfYOaX1YKMNH5-oBhHpBAlTyjzp12cj15QpegAV2WI9K0vvY91gBx6TRPM6-jeZDyoeV4aoscKDOTYvLlTdZ0nEZJMCeh8aaKJfM5aYm7PDhCgca1Q2WLvung5fX0gmc04REOuadP5NelISz3VllHt3XnB6r7S-u8LvhJvCFn93kNcFg8otdP5LoxjaZ1sw99v143WNMExzwaaEufXdWUHcPd5hLUPI96jRacxLv3ZCEiPZtK9qUN0FnbH3RjD8fZFrgZjN6MhBDFBYRoDE92G63r8O4E27raAbAEhoaa7h-5BVpc-ho5c-9mr4Qb7Uvo5Xx7Ua347vtfcRynheDGO64byFSGG4Fh5cCWkXucD2RdFXWOuW5vmw4V17wMPMc1tzb4q2oYTRtUEcKgl3qTmOTtYZNXB_TSJT8lCPsVQyE8M4cgbtyRiDX6SSCRfpTBZDjpGxajJcVjixwYQo3BlGxPFeiYkwBCZa3SSU-l_7hScXYD-bHMGqSFIz8bWLZFI-cZXwiU0G5-zpGmQXEVXh2XjO2_7TFj7WybmE7WPMUn1NSSaOP6w1gIyZJeMYgKY=w2878-h1402-no?authuser=0",
+  },
+  {
+    id: 4,
+    title: "Profile Page",
+    img: "https://lh3.googleusercontent.com/SNVkvQ8e1XZprfk58nQizGLc0cuRN18EqLq9pMGHY2mNZdHX2Ajp-iUG-kEJ9b7Z2ynnsQQ0BoRsjqQotiPaYn76xgc5J0c3n-ZUhav-NV1Pr7e3Cau2JyQCMzy8CQ9hielyllKIwyxZh4Xyw0rNjqULHy8yGAYjaVWS18GKz-7QB5ujyV6MOrghceiW-RtJvm-aS5sEVbEeM1Sxt6tJugDkAUEaunJLSURt4X1PjKl_P772l4fHLq2W7H3RXykCbN8wnazj5G314MbZoErXl_wMMmqY_XAJe6IATYFZrRIbocOuwelJtMFS8w8p4Gnvjb9ABWB8Rgi72_8Aorx-j53DTnHpXNyAi1YweT_oRXBlGPBB_L_LGzRGerLKykYSGBSXV_cUbEvPtCrHxb8HDcoRNqd4pJpNPoquXjOx1f4Rp4jSy3-tXSlMLinRnyNCUinLUpE4tVv2SIbq2IFPZQawxg139cVRY5p2H6Luxo2ieeqlRU_Vl9J_jPZlJE8NSJxkyBRf_LyvJEYhfrQYSUDsDtmF6LXGkYmHHkYvz5Pjstvi06GEwHO1sy1ZyKhwExES0TCxDTbzAH0t_FMn2yF0fy8YYqRbAbx_noip4qBQl602zEXmmfwntSbNLRJNOo0TniH6n_6J2XuQHZ-JPUn_9D5DSONgiyE-IvFKz9mVqrvMro8CbeCM3t9FqOz-3INpq-n7c-WQsCDbOFnfDWQ=w2880-h1402-no?authuser=0",
+  },
+  {
+    id: 6,
+    title: "Fever Dream Studios",
+    img: "",
+  },
+];
