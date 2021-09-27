@@ -1,18 +1,16 @@
 import "./navbar.scss"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import logoBlack from "../../assets/logo_black.png";
-import logoWhite from "../../assets/logo_white.png";
+import logo from "../../assets/logo.png";
 
 export default function Navbar( { menuOpen, setMenuOpen } ) {
   return (
     <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo"> <img src={logoBlack} alt="logo" className="logo"/> </a>
-          <a href="#intro" className="logoActive"> <img src={logoWhite} alt="logoActive" className="logoActive"/> </a>
+          <a href="#intro" className="logoActive"> <img src={logo} alt="logoActive" className="logoActive"/> </a>
           <div className="itemContainer">
             <MailOutlineIcon className="icon"/>
-            <span>emjburridge@gmail.com</span>
+            <span><a href="mailto:emjburridge@gmail.com" class="navbarEmail">emjburridge@gmail.com</a></span>
           </div>
         </div>
         <div className="right">

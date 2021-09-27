@@ -1,31 +1,83 @@
 @import "../../global.scss";
 
 .menu {
-  width: 300px;
-  height: 100vh;
+  width: 950px;
+  height: 950px;
+  border-radius: 50%;
   background-color: $mainColor;
   position: fixed;
-  top: 0;
-  right: -300px;
+  top: -1000px;
+  right: -1000px;
   z-index: 2;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
 
   &.active {
-    right: 0;
+    right: -500px;
+    top: -500px;
+  }
+
+  .linksWrapper {
+    width: 700px;
+    height: 900px;
+    margin-left: -400px;
   }
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 20px 0px;
     list-style: none;
     font-size: 30px;
     font-weight: 300;
     color: white;
-    width: 60%;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 450px;
+    overflow: hidden;
+    // transform: rotate(-20deg);
+
+    .navHome {
+      margin-top: 35px;
+      margin-left: 25px;
+      transform: rotate(-2deg);
+    }
+
+    .navPortfolio {
+      margin-left: 35px;
+      margin-top: -10px;
+      transform: rotate(-12deg);
+    }
+
+    .navWorks {
+      margin-left: 60px;
+      margin-top: -10px;
+      transform: rotate(-22deg);
+    }
+
+    .navTestimonials {
+      margin-top: -10px;
+      margin-left: 100px;
+      margin-bottom: 50px;
+      transform: rotate(-32deg);
+    }
+
+    .navContact {
+      margin-left: 190px;
+      margin-top: -30px;
+      transform: rotate(-48deg);
+    }
+    .innerMenu {
+      width: 580px;
+      height: 570px;
+      background-color: #78be1e;
+      border: 10px solid #06a571;
+      border-radius: 50%;
+      margin-top: -850px;
+      margin-left: 170px;
+      position: absolute;
+    }
 
     li {
       margin-bottom: 25px;
