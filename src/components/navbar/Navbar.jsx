@@ -1,5 +1,7 @@
 import "./navbar.scss"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from "../../assets/logo.png";
 
 export default function Navbar( { menuOpen, setMenuOpen } ) {
@@ -9,8 +11,9 @@ export default function Navbar( { menuOpen, setMenuOpen } ) {
         <div className="left">
           <a href="#intro" className="logoActive"> <img src={logo} alt="logoActive" className="logoActive"/> </a>
           <div className="itemContainer">
-            <MailOutlineIcon className="icon"/>
-            <span><a href="mailto:emjburridge@gmail.com" class="navbarEmail">emjburridge@gmail.com</a></span>
+            <a href="https://www.linkedin.com/in/eriisu/" class="navbarEmail"><LinkedInIcon className="icon" /></a>
+            <a href="https://github.com/eriisu" class="navbarEmail"><GitHubIcon className="icon" /></a>
+            <a href="mailto:emjburridge@gmail.com" class="navbarEmail"><MailOutlineIcon className="icon" /></a>
           </div>
         </div>
         <div className="right">
