@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color: #242929;
+  background-color: #292c2c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,10 @@
 
   h1{
     font-size: 60px;
-    color: white;
+    color: #06a571;
+    text-shadow: -1px -1px 0 #78be1e, 1px -1px 0 #78be1e, -1px 1px 0 #78be1e, 1px 1px 0 #78be1e;
+    font-weight: 500;
+    padding-bottom: 15px;
   }
 
   ul{
@@ -18,7 +21,7 @@
     list-style: none;
     display: flex;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .container {
@@ -32,7 +35,7 @@
       width: 320px;
       height: 190px;
       border-radius: 20px;
-      border: 1px solid #06a571;
+      border: 2px solid #dadada;
       margin: 10px 20px;
       display: flex;
       align-items: center;
@@ -42,9 +45,12 @@
       transition: all 0.5s ease;
       cursor: pointer;
 
-      h3 {
+      a {
         position: absolute;
-        font-size: 20px;
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
       }
 
       img {
@@ -56,10 +62,16 @@
 
       &:hover {
         background-color: $mainColor;
+        outline: none;
+        border-color: #ececec;
+        box-shadow: 0 0 10px #ececec;
         img {
           opacity: 0.2;
           z-index: 0;
         };
+        a{
+          text-decoration: underline;
+        }
       }
     }
   }

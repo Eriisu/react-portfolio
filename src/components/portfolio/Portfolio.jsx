@@ -58,6 +58,7 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            url={item.url}
           />
         ))}
       </ul>
@@ -65,7 +66,7 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="item">
             <img src={d.img} alt="" />
-            <h3>{d.title}</h3>
+            <a href={d.url}>{d.title}</a>
           </div>
         ))}
       </div>
