@@ -1,3 +1,105 @@
 .works {
-  background-color: #78be1e;
+  background-color: #06a571;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 80px;
+    position: absolute;
+    font-size: 60px;
+    cursor: pointer;
+    color: #283131;
+
+    &.left {
+      left: 100px;
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 85%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: justify;
+
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: #a9d66f;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 25px;
+              }
+            }
+
+            h2 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 13px;
+            }
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .right {
+          flex: 8;
+          height: 100%;
+
+          img {
+            width: 600px;
+            height: 350px;
+            object-fit: cover;
+            object-position: left;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
 }
