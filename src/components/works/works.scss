@@ -6,12 +6,16 @@
   position: relative;
 
   .arrow {
-    height: 80px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     font-size: 60px;
     cursor: pointer;
     color: #283131;
     transition: all 1s ease;
+    background-color: #78be1e;
+    padding: 10px 10px;
+    border-radius: 50%;
 
     &.left {
       left: 100px;
@@ -22,7 +26,7 @@
     }
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
 

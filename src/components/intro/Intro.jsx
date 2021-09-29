@@ -1,5 +1,5 @@
 import "./intro.scss"
-import headshot from "../../assets/headshot.png"
+import headshotgif from "../../assets/headshot-gif.gif"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { init } from 'ityped';
 import { useEffect, useRef } from "react";
@@ -22,7 +22,7 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <div className="innerBorder">
-            <img src={headshot} alt="headshot" />
+            <img src={headshotgif} alt="headshot" />
           </div>
         </div>
       </div>
