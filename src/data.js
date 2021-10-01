@@ -38,7 +38,7 @@ export const reactPortfolio = [
   {
     id: 5,
     title: "React Portfolio",
-    img: "",
+    img: "https://res.cloudinary.com/eriisu/image/upload/v1633120520/react-portfolio_hxupps.png",
     url: "https://www.emjb.co.uk",
   },
 ];
@@ -59,7 +59,7 @@ export const htmlPortfolio = [
   {
     id: 6,
     title: "Fever Dream Studios",
-    img: "",
-    url: "",
+    img: "https://res.cloudinary.com/eriisu/image/upload/v1633120208/fever-dream-studios_vlrvst.png",
+    url: "https://eriisu.github.io/fever-dream-studios/",
   },
 ];
